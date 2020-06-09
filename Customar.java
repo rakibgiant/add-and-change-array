@@ -23,7 +23,8 @@ public class Customar {
     public void addCustomar() {
         System.out.println("How many Customar u wanna add?: ");
         int customar_num = input.nextInt();
-        for(int i = 0; i <= customar_num; i++){
+        input.nextLine();
+        for(int i = 0; i < customar_num; i++){
             System.out.println("Please entre the customar name: ");
             name = input.nextLine();
             someList.add(name);
